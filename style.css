@@ -1,0 +1,178 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    letter-spacing: .2vh;
+}
+
+/* nav */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(30, 39, 59);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+#nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    text-decoration: none;
+  }
+/* end of nav bar */
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+/* top section */
+
+#top-section img {
+    max-width:100%;
+    height:auto;
+    float: right;
+}
+
+span {
+    color: orange;
+}
+
+#top-section a {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.top-container {
+    display: flex;
+    margin: 20px 70px 20px 70px;
+    align-items: center;
+}
+
+.diet-container {
+    line-height: 1.6;
+}
+
+#top-section p {
+    margin-bottom: 40px;
+}
+
+/* end of top section */
+
+/* about us */
+
+#about-us img {
+    max-width:60%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+#about-us a {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.about-container {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    background-image: url(images/background.png);
+}
+
+.about-us {
+    float: right;
+    width: 90%;
+}
+
+#about-us p {
+    margin-bottom: 40px;
+}
+
+/* end of about us */
+
+/* card section */
+
+.card-container {
+    margin-top: 40px;
+}
+
+.our-recipies {
+    text-align: center;
+}
+
+.card-items {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    grid-gap: 5rem;
+    align-items: center;
+}
+
+.card {
+    box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 40%;
+    border-radius: 20px;
+    padding: 20px 20px ;
+
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .box {
+    display: flex;
+    max-width: 1000px;
+    box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+    margin: 50px auto;
+    border-radius: 20px;
+  }
+
+  .box-item {
+      text-align: center;
+    margin: 0 auto;
+    line-height: .5;
+  }
+
+/* end of card section */
+
+/* footer */
+
+#footer {
+    text-align: center;
+    background-color:rgb(30, 39, 59);
+}
+
+#footer .footer {
+    min-height: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+
+
+/* end of footer */
