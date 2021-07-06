@@ -131,7 +131,7 @@ span {
     width: 40%;
     border-radius: 20px;
     padding: 20px 20px ;
-
+    text-align: center;
   }
   
   img {
@@ -152,12 +152,25 @@ span {
   }
 
   .box-item {
-      text-align: center;
+    text-align: center;
     margin: 0 auto;
     line-height: .5;
   }
 
 /* end of card section */
+
+.whitesmoke-hr {
+    border-top: 2px solid whitesmoke;
+}
+
+/* location section */
+
+#location-section {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* end of location section */
 
 /* footer */
 
